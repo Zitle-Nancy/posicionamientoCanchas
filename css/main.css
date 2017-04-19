@@ -1,0 +1,52 @@
+#cancha{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background-color: green;
+	left: 250px;
+	top: 100px;
+
+}
+#centro{
+	position: absolute;
+	border: 1px solid white;
+	width: 480px;
+	height: 280px;
+	margin: 10px;
+}
+#circulo{
+	position: absolute;
+	top: 100px;
+	left: 190px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:solid 1px white;
+}
+.rectanguloIzq{
+	position: absolute;
+	border: 1px solid white;
+	width: 100px;
+	height: 200px;
+	top: 40px;	
+}
+.rectanguloDerecha{
+	transform: rotate(-180deg);
+	left: 379px;
+}
+.bolitas{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border: solid white 1px;
+	background-color: white;
+	left: 90px;
+}
+.bolitasCirculo{
+	top: 60px;
+	left: 200px;
+}
+.bolitasDerecha{
+	top: 0;
+}
